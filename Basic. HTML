@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Expiry Notifier Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 8px; text-align: left; border: 1px solid #ddd; }
+        th { background-color: #f2f2f2; }
+        .expired { color: red; font-weight: bold; }
+        .up-to-date { color: green; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Content Expiry Notifier Dashboard</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Article Title</th>
+                <th>Publish Date</th>
+                <th>Expiry Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Understanding JavaScript Closures</td>
+                <td>2023-01-10</td>
+                <td class="expired">Expired</td>
+            </tr>
+            <tr>
+                <td>The Rise of AI in Marketing</td>
+                <td>2023-02-20</td>
+                <td class="up-to-date">Up to Date</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
